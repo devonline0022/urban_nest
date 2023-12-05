@@ -36,7 +36,6 @@ module Spree
       end
 
       def load_product
-        byebug
         @product = Spree::Product.accessible_by(current_ability, :show).friendly.find(params[:product_slug]) if params[:product_slug]
       end
 
