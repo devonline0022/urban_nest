@@ -1,0 +1,21 @@
+current directory: /home/developer/deployment/urban_nest/vendor/bundle/ruby/3.0.0/gems/psych-4.0.6/ext/psych
+/home/developer/.rvm/rubies/ruby-3.0.0/bin/ruby -I /home/developer/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20231204-49582-fdpw98.rb extconf.rb
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /home/developer/deployment/urban_nest/vendor/bundle/ruby/3.0.0/gems/psych-4.0.6/ext/psych
+make "DESTDIR=" clean
+
+current directory: /home/developer/deployment/urban_nest/vendor/bundle/ruby/3.0.0/gems/psych-4.0.6/ext/psych
+make "DESTDIR="
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+
+current directory: /home/developer/deployment/urban_nest/vendor/bundle/ruby/3.0.0/gems/psych-4.0.6/ext/psych
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 psych.so ./.gem.20231204-49582-cwoya5
