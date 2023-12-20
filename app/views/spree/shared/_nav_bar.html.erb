@@ -1,0 +1,9 @@
+<nav id="top-nav-bar" class="columns ten">
+  <ul id="nav-bar" class="d-flex align-items-center" data-hook>
+    <%= render 'spree/shared/locale_selector' %>
+    <%# solidus_auth_devise or a custom auth system can replace this partial %>
+    <li id="search-bar" data-hook>
+      <%= render partial: 'spree/shared/search' %>
+    </li>
+  </ul>
+</nav>
