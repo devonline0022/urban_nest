@@ -28,9 +28,6 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
-#for image storing
-gem "aws-sdk-s3", require: false
-
 gem 'bootstrap', '~> 4.5'
 
 group :development, :test do
